@@ -2,13 +2,17 @@ azkaban.name=Test
 azkaban.label=My Local Azkaban
 azkaban.color=#FF3601
 azkaban.default.servlet.path=/index
+#此处可能需要修改
 web.resource.dir=/opt/azkaban-web-server-3.44.0-2-ga7b0fa4/web/
 default.timezone.id=Asia/Shanghai
 user.manager.class=azkaban.user.XmlUserManager
+#此处可能需要修改
 user.manager.xml.file=/opt/azkaban-web-server-3.44.0-2-ga7b0fa4/conf/azkaban-users.xml
+#此处可能需要修改
 executor.global.properties=/opt/azkaban-web-server-3.44.0-2-ga7b0fa4/conf/global.properties
 azkaban.project.dir=projects
 
+#此处可能需要修改
 database.type=mysql
 mysql.port=3306
 mysql.host=localhost
@@ -20,6 +24,7 @@ mysql.numconnections=100
 
 velocity.dev.mode=false
 
+#此处可能需要修改
 jetty.maxThreads=25
 jetty.ssl.port=8443
 jetty.port=8081

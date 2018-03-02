@@ -1,8 +1,10 @@
 default.timezone.id=Asia/Shanghai
 azkaban.jobtype.plugin.dir=plugins/jobtypes
+#此处可能需要修改
 executor.global.properties=/opt/azkaban-exec-server-3.44.0-2-ga7b0fa4/conf/global.properties
 azkaban.project.dir=projects
 
+#此处可能需要修改
 database.type=mysql
 mysql.port=3306
 mysql.host=localhost
@@ -10,6 +12,7 @@ mysql.database=azkaban
 mysql.user=azkaban
 mysql.password=azkaban
 
+#此处可能需要修改
 mysql.numconnections=100
 executor.maxThreads=50
 executor.port=12321
